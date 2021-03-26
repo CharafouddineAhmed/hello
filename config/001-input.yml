@@ -1,0 +1,13 @@
+job.name: OOKJsdfq
+
+with_query_elasticsearch: false
+input_path_query: "/qsdl/qsdfqsd/qsdfqsdjhf"
+buckets_value_name: valeur
+buckets_value_name_from: "1"
+
+seuil: 12
+schedule_check: 4 * * * 7
+
+# Output 
+output.path: 
+  hosts: ["locahost:9200"]
